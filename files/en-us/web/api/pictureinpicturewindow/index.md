@@ -33,9 +33,7 @@ _The `PictureInPictureWindow` interface doesn't inherit any events._
 - {{domxref("PictureInPictureWindow.resize_event", "resize")}}
   - : Sent to a {{DOMxRef("PictureInPictureWindow")}} when the floating video window is resized.
 
-## Examples
 
-Given a `<button>` and a `<video>`, clicking the button will make the video enter the picture-in-picture mode; we then attach an event to print the floating video window dimensions to the console.
 
 ```js
 const button = document.querySelector("button");
